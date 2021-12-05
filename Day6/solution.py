@@ -15,7 +15,6 @@ def process_pt1(data):
                 break
             for letter in answer:
                answers.add(letter)
-            # print(answer, answers)   
         total += len(answers)
     return total
 
